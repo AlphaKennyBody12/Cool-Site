@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Button</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            width: 200px;
+            padding: 350px;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsRRgbjsHhTYEPztP9n-mxTcYVnknFRrybAiDr5pPHmYzOcKSkihL1OYXAlYtIFcyQ8q5U7Q');
+            background-repeat: repeat;
+            background-size: 300px 500px; /* smaller size */
+            background-position: left;
+        }
+        
+        button {
+            background-color: #00D1FF;
+            color: black;
+            border: shadow;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+            font-size: 50px;
+        }
+        button:hover {
+            background-color: #0023FF;
+        }
+    </style>
+</head>
+<body>
+    <button id="doCoolStuff">Do Cool Stuff</button>
+
+    <script>
+      document.getElementById("doCoolStuff").onclick = function() {
+        window.open("https://bit.ly/98K8eH");
+      };
+    </script>
+</body>
+</html>
